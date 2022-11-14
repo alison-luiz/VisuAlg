@@ -5,7 +5,6 @@ Algoritmo "lista10-5"
 Var
    v: vetor [1..5,1..8] de inteiro
    v1: vetor [1..40] de inteiro
-   v2: vetor [1..5,1..8] de inteiro
 procedimento gerar_matriz
 var
    num: inteiro
@@ -100,33 +99,33 @@ var
 inicio
    escreval
    para x de 1 ate 8 faca
-      v2[1,x] <- v1[x]
+      v[1,x] <- v1[x]
    fimpara
    para x de 9 ate 12 faca
-      v2[(x-7),8] <- v1[x]
+      v[(x-7),8] <- v1[x]
    fimpara
    para x de 13 ate 19 faca
-      v2[5,(19-x)+1] <- v1[x]
+      v[5,(19-x)+1] <- v1[x]
    fimpara
    para x de 20 ate 22 faca
-      v2[(22-x)+2,1] <- v1[x]
+      v[(22-x)+2,1] <- v1[x]
    fimpara
    para x de 23 ate 28 faca
-      v2[2,(x-21)] <- v1[x]
+      v[2,(x-21)] <- v1[x]
    fimpara
    para x de 29 ate 30 faca
-      v2[(x-26),7] <- v1[x]
+      v[(x-26),7] <- v1[x]
    fimpara
    para x de 31 ate 35 faca
-      v2[4,(35-x)+2] <- v1[x]
+      v[4,(35-x)+2] <- v1[x]
    fimpara
    para x de 36 ate 40 faca
-      v2[3,(x-34)] <- v1[x]
+      v[3,(x-34)] <- v1[x]
    fimpara
    escreval
    para x de 1 ate 5 faca
       para y de 1 ate 8 faca
-         escreva(v2[x,y]:2,"|")
+         escreva(v[x,y]:2,"|")
       fimpara
       escreval
    fimpara
