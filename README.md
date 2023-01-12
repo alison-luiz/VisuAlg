@@ -1,1 +1,2 @@
-PROJETOS EM VISUALG - CURSO ENGENHARIA DE SOFTWARE 1º ANO
+ - Lista de exercícios para desenvolvimento de raciocínio lógico.
+ - Desenvolvido em VisuAlg durante o curso de Engenharia de Software - 1º Ano
